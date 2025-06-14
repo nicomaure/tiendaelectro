@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- para que se vea bien en edge-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ccs/estilos.css"> <!-- Link a css-->
+    <title>Tienda de electro</title>
+    <link rel="stylesheet" href="ccs/fontawesome/css/all.min.css"> <!-- vinculo para instalar fontawesome-->
+    <link rel="stylesheet" href="ccs/fontawesome/css/fontawesome.min.css"><!-- vinculo para instalar fontawesome-->
+</head>
+
+<body id="inicio">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Esto es un comentario-->
+        <h1>Tienda de electro</h1>
+        <h2>Acerca de la tienda</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus incidunt cumque recusandae omnis? Iusto
+            architecto aliquam nam, fuga debitis aspernatur itaque veritatis autem soluta quia expedita, rem adipisci
+            quo
+            voluptatem?</p>
+        <h2>Catálogo</h2>
+        <div class="producto">
+            <h3>Smart TV 43" Full HD</h3>
+            <img src="imagenes/televisor.jpeg" alt="Smart TV 43 Full HD">
+            <ul>
+                <li><span>Precio:</span> $130.000</li>
+                <li><span>Modelo:</span> UN43J5290AGCZB</li>
+                <li><span>Marca:</span> Samsung</li>
+            </ul>
+        </div>
+        <div class="producto">
+            <h3>Lavarropas Aurora</h3>
+            <img src="imagenes/lavarropas.jpeg" alt="Lavarropas Aurora">
+            <ul>
+                <li><span>Precio:</span> $120.000</li>
+                <!-- llamo a producto span para color verde y negrita-->
+                <li><span>Modelo:</span> Aur102023</li>
+                <li><span>Marca:</span> Aurora</li>
+            </ul>
+        </div>
+        <div class="producto">
+            <h3>Cafetera Oster</h3>
+            <img src="imagenes/cafetera.jpeg" alt="Cafetera Oster">
+            <ul>
+                <li><span>Precio:</span> $50.000</li>
+                <li><span>Modelo:</span> OCa2023</li>
+                <li><span>Marca:</span> Oster</li>
+            </ul>
+        </div>
+        <div id="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/5klG3bqKhDg"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </div>
+        <a href="#inicio">Volver al Inicio</a> <!-- sube al id inicio de body-->
+    </main>
+    <footer> <!-- seccion para indicarle para google que van las redes sociales al inferior en la pagina-->
+        <div class="redes mx-auto"><!-- agregar redes sociales por fontawasome-->
+            <a href="https://api.whatsapp.com/send?phone=541162423341" target="_blank" title="Envianos un mensaje por Whatsapp">
+                <i class="fa-brands fa-whatsapp"></i><!-- target _blank para que se abra en otra pagina-->
+            </a>
+            <a href="https://Linkedin.com" target="_blank" title="Seguinos en Linkedin">
+                <i class="fa-brands fa-linkedin-in"></i>          
+            </a>
+            <a href="https://youtube.com" target="_blank" title="Seguinos en Youtube">
+                <i class="fa-brands fa-youtube"></i>            
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
